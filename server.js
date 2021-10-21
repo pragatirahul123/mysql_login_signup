@@ -10,3 +10,6 @@ app.use('',require('./route/index'))
 app.listen(6574,()=>{
     console.log("server is running")
 })
+
+
+// console.log("HIIII")

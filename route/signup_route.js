@@ -1,10 +1,8 @@
-
 const express = require("express")
 const router = express.Router()
-const signupcontroll=require('../controller/signup_file')
+const registerControoler=require('../controller/signup_file')
 
-router.post("/",signupcontroll.register)
+router.post("/",registerControoler.register)
 
 
-module.exports = router
-
+module.exports =router

@@ -1,9 +1,8 @@
 const express = require("express")
 const router = express.Router()
+const loginControoler=require('../controller/login_file')
 
-const logincontroller = require('../controller/login_file')
-
-router.get("/",logincontroller.login)
+router.get("/",loginControoler.login)
 
 
-module.exports = router
+module.exports =router
